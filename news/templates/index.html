@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <h2 class="header link"> Latest </h2>
+    {% for item  in latest_data %}
+        <div class="card text-white border-secondary mb-5 bg-dark">
+            <img class="card-img-top" src="{{ item.image }}" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title text-warning">{{ item.title }}</h4>
+                <p class="card-text">{{ item.detail }}</p>
+                <a href="{{ item.url }}" class="btn btn-info" style="margin-bottom: 10px;">Read more</a>
+                <p class="card-text"><small class="text-muted text-info" style="margin-left: 5px;"><strong>{{ item.newspaper }} </strong></small></p>
+            </div>
+
+        </div>
+    {% endfor %}
+{% endblock %}
