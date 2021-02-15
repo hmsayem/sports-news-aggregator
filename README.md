@@ -2,8 +2,8 @@
 ### About
 A web application built with Django which aggregates latest sports news from multiple websites using Web Scraping and presents the data in one location. The combination of two python packages, Beautiful Soup and Selenium has been used for dynamic scraping.
 The news articles have been aggregated from Prothom Alo and The Daily Star. Sports category is also available in this application which makes the navigation easier for the users.
-### Why build a news aggregator ?
-There are hundreds of news websites, they do cover news on several broad topics, out of which only a few of them are of our interest. A news aggregator can be a tool to save a lot of time and with some modifications and filtration we can fine tune it to show only news of our interest. A news aggregator can be an useful tool to get information within short time.
+### Why build a news aggregator?
+There are hundreds of news websites, they do cover news on several broad topics, out of which only a few of them are of our interest. A news aggregator can be a tool to save a lot of time and with some modifications and filtration so that we can fine tune it to show only news of our interest. A news aggregator can be an useful tool to get information within short time.
 
 ### Screenshot
 
